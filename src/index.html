@@ -7,10 +7,65 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="">
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-[#fff]">
+    <!-- Navbar -->
+    <header>
+        <nav class="flex items-center justify-between px-12 py-4 bg-white shadow-sm">
+            <!-- Logo -->
+            <div class="flex items-center space-x-1">
+                <span class="text-3xl font-bold text-orange-500">G</span>
+                <span class="text-3xl font-bold text-lime-500">i</span>
+                <span class="text-3xl font-bold text-orange-300">d</span>
+                <span class="text-3xl font-bold text-orange-500">a</span>
+                <span class="text-3xl font-bold text-orange-300">k</span>
+            </div>
+            <!-- Menu -->
+            <ul class="flex space-x-10 font-semibold text-black">
+                <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                <li><a href="#" class="hover:text-orange-500">Categories</a></li>
+                <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+                <li><a href="#" class="hover:text-orange-500">Contact</a></li>
+            </ul>
+            <!-- Sign in -->
+            <a href="#" class="flex items-center text-orange-500 font-semibold hover:underline">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> Sign in
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-[#ffefe3] pt-16 pb-32 px-8 md:px-24">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-4">
+                <span class="text-orange-500">Rent</span>
+                <span class="text-black">whatever</span>
+                <span class="text-orange-500">you want.</span><br>
+                <span class="text-orange-500">whenever</span>
+                <span class="text-black">you need.</span>
+            </h1>
+            <p class="text-lg text-gray-500 mb-8">Rent everything from DIY tools to Electronics</p>
+            <!-- Search Bar -->
+            <form class="flex items-center bg-white rounded-full shadow-md px-4 py-2 max-w-xl mx-auto">
+                <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8" stroke-width="2" stroke="currentColor" fill="none"/>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" stroke-width="2" stroke="currentColor"/>
+                </svg>
+                <input type="text" placeholder="Search for gaming consoles, ladder, tents" class="flex-1 outline-none bg-transparent text-gray-700 placeholder-gray-400 px-2 py-1">
+                <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white rounded-full p-2 ml-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Example: Browse Categories Heading -->
+    <section class="bg-white py-12">
+        <h2 class="text-3xl font-bold text-center">Browse Categories</h2>
+    </section>
 </body>
 
 </html>
