@@ -10,9 +10,9 @@
 <body class="bg-[#fff]">
     <!-- Navbar -->
     <header>
-        <nav class="flex items-center justify-between px-12 py-4 bg-white shadow-sm">
+        <nav class="flex items-center justify-between px-12 py-4 bg-white shadow-sm" >
             <!-- Logo -->
-            <div class="flex items-center space-x-1">
+            <div class="flex items-center space-x-1" style="margin-left:100px ;">
                 <span class="text-3xl font-bold text-orange-500 ">G</span>
                 <span class="text-3xl font-bold text-lime-500">i</span>
                 <span class="text-3xl font-bold text-orange-300">d</span>
@@ -27,16 +27,17 @@
                 <li><a href="#" class="hover:text-orange-500 font-Lexend">Contact</a></li>
             </ul>
             <!-- Sign in -->
-            <a href="#" class="flex items-center text-orange-500 font-semibold hover:underline">
+            <a href="#" class="flex items-center text-orange-500 font-semibold hover:underline" style="margin-right: 100px;">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg> Sign in
             </a>
         </nav>
+        <link rel="stylesheet" href="style.css">
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-[#ffefe3] pt-10 pb-32 px-4 md:px-24">
+    <section class=" pt-10 pb-32 px-4 md:px-24" style="background-color: #fff0e6;">
         <div class="max-w-3xl mx-3">
             <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-4">
                 <span class="text-orange-500" style="font-family: Georgia, 'Times New Roman', Times, serif">Rent<br>whatever</span>
@@ -46,7 +47,7 @@
             </h1>
             <p class="text-lg text-orange-500 mb-8" style="font-size: 30px;">Rent everything from DIY tools to Electronics</p>
             <!-- Search Bar -->
-            <form class="flex items-center bg-white rounded-full shadow-md px-4 py-2 max-w-xl mx-auto">
+            <form    class="flex items-center bg-white rounded-full shadow-md px-4 py-2 max-w-xl mx-auto border " style="padding: 15px; margin-left: -10px; border-color: rgb(246, 124, 80) ;border-width: 2px;">
                 <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <circle cx="11" cy="11" r="8" stroke-width="2" stroke="currentColor" fill="none"/>
                     <line x1="21" y1="21" x2="16.65" y2="16.65" stroke-width="2" stroke="currentColor"/>
@@ -58,6 +59,27 @@
                     </svg>
                 </button>
             </form>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-6 mt-10">
+        <!-- Item 1 -->
+        <div id="imgcp"class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 400px; height:250px;">
+            <img id="imgp" src="/ps5.png" alt="PlayStation" class="h-40 object-contain" style="transform: scale-50; transform-origin: top left;">
+        </div>
+
+         <!-- Item 2 -->
+        <div id = "imgcc" class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 400px; height:250px;" >
+         <img id = "imgc"src="/camera.png" alt="Camera" class="h-40 object-contain"  style="transform: scale-50; transform-origin: top left;">
+        </div>
+
+         <!-- Item 3 -->
+        <div id="imgct"class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 400px; height:250px;" >
+         <img id="imgt" src="/tent.png" alt="Tent" class="h-40 object-contain">
+        </div>
+
+         <!-- Item 4 -->
+        <div id="imgcl" class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 400px; height:250px;">
+            <img id="imgl" src="/ladder.png" alt="Ladder" class="h-40 object-contain">
+        </div>
         </div>
     </section>
 
