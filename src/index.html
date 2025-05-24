@@ -85,30 +85,34 @@
             <!-- Right Side: Images -->
             <div class="grid grid-cols-2 gap-6">
                 <!-- Item 1 -->
-                <div class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 180px; height:220px;">
-                    <div class="w-20 h-16 bg-gray-300 rounded flex items-center justify-center">
-                        <span class="text-xs text-gray-600">PS5</span>
+                <div class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 220px; height:220px;">
+                    <div class="w-20 h-16 rounded flex items-center justify-center">
+                        <img src="../ps5.png" alt="" style="width: 180px; height:20 0px;">
+
                     </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 180px; height:220px;">
-                    <div class="w-20 h-16 bg-gray-300 rounded flex items-center justify-center">
-                        <span class="text-xs text-gray-600">Camera</span>
+                    <div class="w-20 h-16 rounded flex items-center justify-center">
+                        <img src="../camera.png" alt="" style="width: 180px; height:200px;">
+
                     </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 180px; height:220px;">
-                    <div class="w-20 h-16 bg-gray-300 rounded flex items-center justify-center">
-                        <span class="text-xs text-gray-600">Tent</span>
+                    <div class="w-20 h-16 rounded flex items-center justify-center">
+                        <img src="../ladder.png" alt="" style="width: 180px; height:200px;">
+
                     </div>
                 </div>
 
                 <!-- Item 4 -->
                 <div class="bg-[#ffeede] p-6 rounded-3xl shadow-md border border-orange-200 flex justify-center items-center" style="width: 180px; height:220px;">
-                    <div class="w-20 h-16 bg-gray-300 rounded flex items-center justify-center">
-                        <span class="text-xs text-gray-600">Ladder</span>
+                    <div class="w-20 h-16 rounded flex items-center justify-center">
+                        <img src="../tent.png" alt="" style="width: 180px; height:220px;">
+
                     </div>
                 </div>
             </div>
@@ -218,18 +222,7 @@
                     </div>
                 </div>
 
-                <!-- Camera & Lenses (duplicate) -->
-                <div class="category-card cursor-pointer" onclick="selectCategory('camera2')">
-                    <div class="flex flex-col items-center text-center p-4">
-                        <div class="icon-circle  w-20 h-20 rounded-full flex items-center justify-center mb-4 shadow-lg">
-                            <svg class="w-10 h-10 text-gray-700" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 15.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"/>
-                                <path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
-                            </svg>
-                        </div>
-                        <h3 class="font-semibold text-gray-800 text-sm leading-tight">Camera &<br>Lenses</h3>
-                    </div>
-                </div>
+
 
                 <!-- Musical Instruments -->
                 <div class="category-card cursor-pointer" onclick="selectCategory('music')">
@@ -275,6 +268,71 @@
             </div>
         </div>
     </section>
+
+
+    <footer class="bg-gray-100 text-gray-800 py-10 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+
+            <!-- Logo ve Açıklama -->
+            <div>
+                <div class="flex items-center space-x-2 mb-4">
+                    <div class="text-orange-500 text-2xl font-bold">⦿</div>
+                    <h1 class="text-xl font-bold">Qidak</h1>
+                </div>
+                <p class="text-sm">
+                    Easy to find & use premium rental items designed to make your life better at every stage and for every occasion.
+                </p>
+                <div class="flex space-x-4 mt-4 text-xl text-gray-600">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div>
+                <h2 class="font-semibold mb-3">Navigation</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Featured Categories -->
+            <div>
+                <h2 class="font-semibold mb-3">Featured Categories</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">DIY Tools</a></li>
+                    <li><a href="#">Camping Gear</a></li>
+                    <li><a href="#">Cameras</a></li>
+                    <li><a href="#">Gaming</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h2 class="font-semibold mb-3">Subscribe to Our Newsletter</h2>
+                <p class="text-sm mb-3">
+                    Get exclusive offers and stay updated on new items
+                </p>
+                <form class="space-y-3">
+                    <input type="email" placeholder="Your email address" class="w-full px-4 py-2 border border-gray-300 rounded" />
+                    <button type="submit" class="w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600">
+          Subscribe
+        </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="mt-10 text-center text-sm text-gray-500">
+            © 2025 Qidak. All rights reserved.
+        </div>
+    </footer>
 
     <script>
         function selectCategory(category) {
@@ -325,6 +383,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
