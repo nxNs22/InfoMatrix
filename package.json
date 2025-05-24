@@ -1,26 +1,26 @@
 {
-  "name": "src",
-  "version": "1.0.0",
-  "description": "Infomatrix",
-  "main": "y",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nxNs22/InfoMatrix.git"
-  },
-  "keywords": [
-    "123"
-  ],
-  "author": "NextCode",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nxNs22/InfoMatrix/issues"
-  },
-  "homepage": "https://github.com/nxNs22/InfoMatrix#readme",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.7",
-    "tailwindcss": "^4.1.7"
-  }
+    "name": "src",
+    "version": "1.0.0",
+    "description": "Infomatrix",
+    "main": "y",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nxNs22/InfoMatrix.git"
+    },
+    "keywords": [
+        "123"
+    ],
+    "author": "NextCode",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nxNs22/InfoMatrix/issues"
+    },
+    "homepage": "https://github.com/nxNs22/InfoMatrix#readme",
+    "dependencies": {
+        "@tailwindcss/cli": "^4.1.7",
+        "tailwindcss": "^4.1.7"
+    }
 }
